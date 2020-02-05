@@ -1,6 +1,6 @@
 #ifndef HOSPITAL_H
 #define HOSPITAL_H
-
+#include <iostream>
 using namespace std;
 #include <string>
 #include <vector>
@@ -11,18 +11,20 @@ class Hospital
     public:
         Hospital(string, int);
         virtual ~Hospital();
-        void recievePatient(Patient newPatient);
+        void recievePatient(Patient *newPatient);
         void setHospitalName(string name);
-        void setHospitalBeds(int numBeds)
+        void setHospitalBeds(int numBeds);
         string getHospitalName();
-        int getHospitalBeds();
+        unsigned int getHospitalBeds();
 
     protected:
 
     private:
         string name;
         int maxBeds, freeBeds;
-        std::vector<Patient> patients;
+        std::vector<Patient*> patients;
+
+        bool checkUniquePatient(Patient *patient);
 };
 
 #endif // HOSPITAL_H

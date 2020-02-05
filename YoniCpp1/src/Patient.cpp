@@ -1,8 +1,9 @@
 #include "Patient.h"
 
-Patient::Patient()
+Patient::Patient(string name, int id)
 {
-    //ctor
+    this->name = name;
+    this->id = id;
 }
 
 Patient::~Patient()

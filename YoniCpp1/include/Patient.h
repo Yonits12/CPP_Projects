@@ -7,7 +7,7 @@ using namespace std;
 class Patient
 {
     public:
-        Patient();
+        Patient(string name, int id);
         virtual ~Patient();
 
     protected:
