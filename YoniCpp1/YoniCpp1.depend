@@ -1,4 +1,18 @@
 # depslib dependency file v1.0
-1580380715 source:c:\users\dell\desktop\cpp_projects\yonicpp1\main.cpp
+1580808518 source:c:\users\dell\desktop\cpp_projects\yonicpp1\main.cpp
 	<iostream>
+
+1580742625 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\patient.cpp
+	"Patient.h"
+
+1580824735 c:\users\dell\desktop\cpp_projects\yonicpp1\include\patient.h
+	<string>
+
+1580824970 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\hospital.cpp
+	"Hospital.h"
+
+1580825015 c:\users\dell\desktop\cpp_projects\yonicpp1\include\hospital.h
+	<string>
+	<vector>
+	"Patient.h"
 
