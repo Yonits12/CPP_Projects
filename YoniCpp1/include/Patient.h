@@ -7,14 +7,18 @@ using namespace std;
 class Patient
 {
     public:
-        Patient(string name, int id);
+        Patient(string name, unsigned int id);
         virtual ~Patient();
+        void setPatientName(string name);
+        void setPatientID(unsigned int id);
+        string getPatientName();
+        unsigned int getPatientID();
 
     protected:
 
     private:
         string name;
-        int id;
+        unsigned int id;
 };
 
 #endif // PATIENT_H

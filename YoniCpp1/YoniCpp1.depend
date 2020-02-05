@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1580892693 source:c:\users\dell\desktop\cpp_projects\yonicpp1\main.cpp
+1580895330 source:c:\users\dell\desktop\cpp_projects\yonicpp1\main.cpp
 	<iostream>
 	"Hospital.h"
 	"Patient.h"
 
-1580889968 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\patient.cpp
+1580895072 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\patient.cpp
 	"Patient.h"
 
-1580889924 c:\users\dell\desktop\cpp_projects\yonicpp1\include\patient.h
+1580895024 c:\users\dell\desktop\cpp_projects\yonicpp1\include\patient.h
 	<string>
 
-1580891562 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\hospital.cpp
+1580895692 source:c:\users\dell\desktop\cpp_projects\yonicpp1\src\hospital.cpp
 	"Hospital.h"
 
 1580891117 c:\users\dell\desktop\cpp_projects\yonicpp1\include\hospital.h

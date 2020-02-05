@@ -25,6 +25,16 @@ void Hospital::recievePatient(Patient *newPatient){
     }
 }
 
+bool Hospital::checkUniquePatient(Patient *patient){
+    for (unsigned int i = 0; i < this->patients.size(); i++){// loop over patients vector
+        if(this->patients[i]->getPatientID() == patient->getPatientID()){   // ID is unique for a patient - a match is permitted!
+            cout << "Patient already exist" << endl;
+            return false;
+        }
+    }
+    return true;
+}
+
 void Hospital::setHospitalName(string newName){
     this->name = newName;
 }
@@ -39,11 +49,6 @@ void Hospital::setHospitalBeds(int numBeds){
 
 unsigned int Hospital::getHospitalBeds(){
     return this->maxBeds;
-}
-
-bool Hospital::checkUniquePatient(Patient *patient){
-    //stub
-    return true;
 }
 
 
