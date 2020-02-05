@@ -13,6 +13,7 @@ class Patient
         void setPatientID(unsigned int id);
         string getPatientName();
         unsigned int getPatientID();
+        Patient* clone();
 
     protected:
 

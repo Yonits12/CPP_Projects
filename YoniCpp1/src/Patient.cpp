@@ -19,6 +19,10 @@ unsigned int Patient::getPatientID(){
     return this->id;
 }
 
+Patient* Patient::clone()
+{
+    return new Patient(this->name, this->id);
+}
 
 Patient::~Patient()
 {

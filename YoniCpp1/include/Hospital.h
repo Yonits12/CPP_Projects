@@ -14,15 +14,18 @@ class Hospital
         void recievePatient(Patient *newPatient);
         void setHospitalName(string name);
         void setHospitalBeds(int numBeds);
+        void freeBeds(int numBeds);
+        void occupyBeds(int numBeds);
         string getHospitalName();
         unsigned int getHospitalBeds();
+        unsigned int getHospitalFreeBeds();
 
     protected:
 
     private:
         string name;
-        int maxBeds, freeBeds;
-        std::vector<Patient*> patients;
+        int maxBeds, numFreeBeds;
+        std::vector<Patient*> *patients;
 
         bool checkUniquePatient(Patient *patient);
 };

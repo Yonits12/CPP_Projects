@@ -9,7 +9,7 @@ int main()
     cout << "___In main Function___" << endl;
     cout << "___Test Hospital___" << endl;
 
-    Hospital *sorokaHos = new Hospital("Soroka", 1);
+    Hospital *sorokaHos = new Hospital("Soroka", 2);
     Patient *pat1 = new Patient("Yoni", 318215282);
     Patient *pat2 = new Patient("Anna", 324215987);
     Patient *pat3 = new Patient("Ben", 318215282);
